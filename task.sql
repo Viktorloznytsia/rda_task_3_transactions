@@ -1,5 +1,5 @@
 USE ShopDB; 
-
+-- Some data must be created outside the transaction (here)
 INSERT INTO Orders (CustomerID, Date) VALUES (1, '2023-01-01'); 
 
 START TRANSACTION;
